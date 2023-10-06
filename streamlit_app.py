@@ -18,7 +18,7 @@ def main():
     st.markdown("***")
     st.components.v1.html("""
     <iframe
-      data-chat-frame="11ee6456-70b2-6a90-9a7b-ef781cf4e2cc"
+      src="https://retune.so/share/chat/11ee6456-70b2-6a90-9a7b-ef781cf4e2cc/widget"
       width="550"
       height="700"
       style="border:0;background:white;"
