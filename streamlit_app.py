@@ -17,10 +17,17 @@ def main():
     st.markdown(project_desc)
     st.markdown("***")
     st.components.v1.html("""
+    <iframe
+      data-chat-frame="11ee6456-70b2-6a90-9a7b-ef781cf4e2cc"
+      width="550"
+      height="700"
+      style="border:0;background:white;"
+    ></iframe>
     <script
-      src="https://retune.so/api/script/chat.js?id=11ee6456-70b2-6a90-9a7b-ef781cf4e2cc"
+      src="https://retune.so/api/script/chat.js?iframe&id=11ee6456-70b2-6a90-9a7b-ef781cf4e2cc"
       defer
-    ></script>""")
+    ></script>
+    """)
 
 
 if __name__ == "__main__":
