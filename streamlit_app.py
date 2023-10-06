@@ -16,10 +16,14 @@ def main():
         st.title(project_title)
     st.markdown(project_desc)
     st.markdown("***")
-    st.components.v1.iframe(
-      src="https://retune.so/share/chat/11ee6456-70b2-6a90-9a7b-ef781cf4e2cc/widget",
-      width=550,
-      height=700)
+    st.markdown("""
+    <iframe
+      src="https://retune.so/share/chat/11ee6456-70b2-6a90-9a7b-ef781cf4e2cc/widget"
+      width="550"
+      height="700"
+      style="border:0;background:white;"
+    ></iframe>
+                """, unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
