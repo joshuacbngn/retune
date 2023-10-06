@@ -23,10 +23,6 @@ def main():
       height="700"
       style="border:0;background:white;"
     ></iframe>
-    <script
-      src="https://retune.so/api/script/chat.js?iframe&id=11ee6456-70b2-6a90-9a7b-ef781cf4e2cc"
-      defer
-    ></script>
     """)
 
 
