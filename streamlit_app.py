@@ -19,8 +19,7 @@ def main():
     st.components.v1.iframe(
       src="https://retune.so/share/chat/11ee6456-70b2-6a90-9a7b-ef781cf4e2cc/widget",
       width=550,
-      height=700,
-      style="border:0;background:white;")
+      height=700)
 
 
 if __name__ == "__main__":
