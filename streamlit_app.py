@@ -15,7 +15,7 @@ def main():
     with head_col[1]:
         st.title(project_title)
     st.markdown(project_desc)
-
+    st.markdown("***")
     st.components.v1.iframe(src="https://retune.so/share/chat/11ee6456-70b2-6a90-9a7b-ef781cf4e2cc/widget",
       width=350,
       height=500)
